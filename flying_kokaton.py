@@ -38,7 +38,7 @@ def main():
         if key_lst[pg.K_LEFT]:
             move_x -=1
         if key_lst[pg.K_RIGHT]:
-            move_x +=2
+            move_x +=3
         
 
         kk_rct.move_ip(move_x, move_y)
